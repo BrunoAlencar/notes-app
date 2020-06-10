@@ -1,0 +1,40 @@
+body {
+    background-color: #ccc;
+}
+h1,label {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+label {
+    font-weight: bolder;
+    font-size: 16px;
+}
+ul {
+  list-style: none;  
+}
+li {
+    font-weight: bolder; 
+    margin-top: 10px;
+    
+}
+li button {
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    line-height: 12px;
+    border: none;
+}
+li p {
+    display: inline-block;
+}
