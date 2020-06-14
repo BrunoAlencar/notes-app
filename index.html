@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>ToDo list:</h1>
-    <form onsubmit="addItem(event)">
-        <label for="new-item">Novo item:</label>
-        <input id="new-item" placeholder="Ex.: Comprar arroz">
-        <button type="submit">ADD</button>
-    </form>
+    <div id="main-container">
 
-
-    <ul id="my-list"></ul>
+        <h1>ToDo list</h1>
+        <br>
+        <form onsubmit="addItem(event)">
+            <input id="new-item" placeholder="Criar uma nota">
+            <button type="submit">Salvar</button>
+        </form>
+        
+        
+        <ul id="my-list"></ul>
+    </div>
 
     <script src="./app.js"></script>
 </body>
